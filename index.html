@@ -1,0 +1,857 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>A Special Surprise For You ❤️</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Playfair+Display:wght@400;500;600;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<!-- ==================================================
+     BACKGROUND
+================================================== -->
+
+<div class="floating-hearts">
+    <span>♡</span>
+    <span>♡</span>
+    <span>♡</span>
+    <span>♡</span>
+    <span>♡</span>
+    <span>♡</span>
+</div>
+
+
+<!-- ==================================================
+     OPENING HERO
+================================================== -->
+
+<section class="hero">
+
+    <div class="hero-content">
+
+        <div class="hero-heart">♡</div>
+
+        <p class="eyebrow">
+            A Little Surprise Made Only For You
+        </p>
+
+        <h1>
+            Happy Birthday
+        </h1>
+
+        <h2>
+            My Beautiful Wife Minahil <br> I Love You😘
+        </h2>
+
+        <div class="divider">
+            <span></span>
+            ♡
+            <span></span>
+        </div>
+
+        <p class="hero-text">
+            There is something waiting for you...
+            <br>
+            But First, You Need The Secret.
+        </p>
+
+        <button
+            class="premium-button photo-button"
+            onclick="showPassword()">
+
+            <span>Open Your Surprise</span>
+            <strong>♡</strong>
+
+        </button>
+
+        <div class="scroll-hint">
+            Made with love
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- ==================================================
+     PASSWORD SECTION
+================================================== -->
+
+<section
+    class="password-section"
+    id="passwordSection">
+
+    <div class="password-card">
+
+        <div class="lock-icon">
+            🔐
+        </div>
+
+        <p class="eyebrow">
+            A secret just for you
+        </p>
+
+        <h2>
+            Enter the <span>Password</span>
+        </h2>
+
+        <p class="password-text">
+            Only someone very special knows this secret. ❤️
+        </p>
+
+        <div class="password-input-wrap">
+
+            <input
+                type="password"
+                id="passwordInput"
+                placeholder="Enter your secret..."
+                autocomplete="off">
+
+            <button
+                class="eye-button"
+                onclick="togglePassword()">
+                👁
+            </button>
+
+        </div>
+
+        <button
+            class="premium-button"
+            onclick="checkPassword()">
+
+            Unlock My Surprise ♡
+
+        </button>
+
+        <p
+            class="password-error"
+            id="passwordError">
+        </p>
+
+    </div>
+
+</section>
+
+
+
+<!-- ==================================================
+     SECRET CONTENT
+================================================== -->
+
+<main
+    id="secretContent"
+    class="secret-content">
+
+
+<!-- ==================================================
+     WELCOME
+================================================== -->
+
+<section class="welcome-section">
+
+    <div class="container">
+
+        <div class="section-heading reveal">
+
+            <p class="eyebrow">
+                Welcome to your little world
+            </p>
+
+            <h2>
+                This is All About<br> <span>You Merii Begam Sahba🤗😉</span>
+            </h2>
+
+            <div class="divider">
+                <span></span>
+                ♡
+                <span></span>
+            </div>
+
+        </div>
+
+
+        <div class="welcome-card reveal">
+
+            <div class="welcome-photo">
+
+                <!-- CHANGE THIS IMAGE -->
+                <img
+                    src="c:\Users\DELL\Downloads\Wife-Image-Png.jpg"
+                    alt="Meri Pyari Begaam">
+
+            </div>
+
+            <div class="welcome-text">
+
+                <div class="quote">
+                    “
+                </div>
+
+                <p>
+                    Some people enter our lives and somehow
+                    make ordinary days feel extraordinary.
+                </p>
+
+                <p>
+                    Today is your day, so I wanted to create
+                    a tiny world filled with some of the moments,
+                    feelings and memories that make you special Meri jaaaan.
+                </p>
+
+                <div class="signature">
+                    With All My Heart ♡
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- ==================================================
+     GALLERY
+================================================== -->
+
+<section class="gallery-section">
+
+    <div class="container">
+
+        <div class="section-heading reveal">
+
+            <p class="eyebrow">
+                Little moments
+            </p>
+
+            <h2>
+                Our <span>Memories</span>
+            </h2>
+
+            <div class="divider">
+                <span></span>
+                ♡
+                <span></span>
+            </div>
+
+            <p class="section-description">
+                Every picture has a story.<br>
+                Begam Ap Sb Images Ko Tap kr Skti Han
+            </p>
+
+        </div>
+
+
+        <div class="gallery-grid">
+
+
+            <!-- PHOTO 1 -->
+
+            <div
+                class="gallery-item reveal"
+                onclick="openLightbox(0)">
+
+                <img
+                    src="e:\WhatsApp Image 2026-08-23 at 2.48.15 AM.jpeg"
+                    alt="Memory 1">
+
+                <div class="gallery-overlay">
+                    <span>♡</span>
+                    <p>Our little moment</p>
+                </div>
+
+            </div>
+
+
+
+            <!-- PHOTO 2 -->
+
+            <div
+                class="gallery-item reveal"
+                onclick="openLightbox(1)">
+
+                <img
+                    src="e:\WhatsApp Image 2026-08-23 at 2.52.52 AM.jpeg"
+                    alt="Memory 2">
+
+                <div class="gallery-overlay">
+                    <span>♡</span>
+                    <p>A beautiful memory</p>
+                </div>
+
+            </div>
+
+
+
+            <!-- PHOTO 3 -->
+
+            <div
+                class="gallery-item reveal"
+                onclick="openLightbox(2)">
+
+                <img
+                    src="e:\WhatsApp Image 2026-08-23 at 2.52.51 AM.jpeg"
+                    alt="Memory 3">
+
+                <div class="gallery-overlay">
+                    <span>♡</span>
+                    <p>Forever special</p>
+                </div>
+
+            </div>
+
+
+
+            <!-- PHOTO 4 -->
+
+            <div
+                class="gallery-item reveal"
+                onclick="openLightbox(3)">
+
+                <img
+                    src="e:\WhatsApp Image 2026-08-23 at 2.52.52 AM (1).jpeg"
+                    alt="Memory 4">
+
+                <div class="gallery-overlay">
+                    <span>♡</span>
+                    <p>A moment to remember</p>
+                </div>
+
+            </div>
+
+
+
+            <!-- PHOTO 5 -->
+
+            <div
+                class="gallery-item reveal"
+                onclick="openLightbox(4)">
+
+                <img
+                    src="e:\WhatsApp Image 2026-08-23 at 2.52.50 AM.jpeg"
+                    alt="Memory 5">
+
+                <div class="gallery-overlay">
+                    <span>♡</span>
+                    <p>Just you & me</p>
+                </div>
+
+            </div>
+
+
+
+            <!-- PHOTO 6 -->
+
+            <div
+                class="gallery-item reveal"
+                onclick="openLightbox(5)">
+
+                <img
+                    src="e:\WhatsApp Image 2026-08-23 at 3.07.24 AM.jpeg"
+                    alt="Memory 6">
+
+                <div class="gallery-overlay">
+                    <span>♡</span>
+                    <p>A memory I'll keep forever</p>
+                </div>
+
+            </div>
+
+
+        </div>
+
+        <p class="gallery-note">
+            Tap any picture ♡
+        </p>
+
+    </div>
+
+</section>
+
+
+
+<!-- ==================================================
+     LIGHTBOX
+================================================== -->
+
+<div
+    class="lightbox"
+    id="lightbox">
+
+    <button
+        class="lightbox-close"
+        onclick="closeLightbox()">
+        ×
+    </button>
+
+
+    <button
+        class="lightbox-prev"
+        onclick="previousImage()">
+        ‹
+    </button>
+
+
+    <div class="lightbox-content">
+
+        <img
+            id="lightboxImage"
+            src=""
+            alt="Memory">
+
+        <div class="lightbox-info">
+
+            <span id="imageCounter">
+                1 / 6
+            </span>
+
+            <p id="imageCaption">
+                Our Beautiful Memory ♡
+            </p>
+
+        </div>
+
+    </div>
+
+
+    <button
+        class="lightbox-next"
+        onclick="nextImage()">
+        ›
+    </button>
+
+</div>
+
+
+
+<!-- ==================================================
+     VIDEO
+================================================== -->
+
+<section class="video-section">
+
+    <div class="container">
+
+        <div class="section-heading reveal">
+
+            <p class="eyebrow">
+                Memories in motion
+            </p>
+
+            <h2>
+                A Little <span>Movie</span> Of Us
+            </h2>
+
+            <div class="divider">
+                <span></span>
+                ♡
+                <span></span>
+            </div>
+
+        </div>
+
+
+        <div class="video-frame reveal">
+
+            <!-- CHANGE VIDEO FILE HERE -->
+
+            <video
+                controls
+                playsinline
+                preload="metadata">
+
+                <source
+                    src="e:\WhatsApp Video 2026-08-23 at 2.54.21 AM.mp4"
+                    type="video/mp4">
+
+                Your browser does not support video.
+
+            </video>
+
+            <div class="video-overlay-decoration">
+                ♡
+            </div>
+
+        </div>
+
+        <p class="video-note">
+            A few seconds of memories,
+            a lifetime of feelings. ❤️
+        </p>
+
+    </div>
+
+</section>
+
+
+<!-- ==================================================
+     VIDEO Second 
+================================================== -->
+
+<section class="video-section">
+
+    <div class="container">
+
+        <div class="section-heading reveal">
+
+            <p class="eyebrow">
+                Memories in motion For You
+            </p>
+
+            <h2>
+                A Little <span>Video For You</span> Meri Jaaan
+            </h2>
+
+            <div class="divider">
+                <span></span>
+                ♡
+                <span></span>
+            </div>
+
+        </div>
+
+
+        <div class="video-frame-two reveal">
+
+            <!-- CHANGE VIDEO FILE HERE -->
+
+            <video
+                controls
+                playsinline
+                preload="metadata">
+
+                <source
+                    src="e:\WhatsApp Video 2026-08-23 at 3.20.19 PM.mp4">
+
+                Your browser does not support video.
+
+            </video>
+
+            <div class="video-overlay-decoration">
+                ♡
+            </div>
+
+        </div>
+
+        <p class="video-note">
+            A few seconds of memories,
+            a lifetime of feelings. ❤️
+        </p>
+
+    </div>
+
+</section>
+
+<!-- ==================================================
+     LETTER
+================================================== -->
+
+<section class="letter-section">
+
+    <div class="container">
+
+        <div class="section-heading reveal">
+
+            <p class="eyebrow">
+                Something from my heart
+            </p>
+
+            <h2>
+                A Letter <span>For You</span><br> Tap On Envelope
+            </h2>
+
+            <div class="divider">
+                <span></span>
+                ♡
+                <span></span>
+            </div>
+
+        </div>
+
+
+        <div
+            class="letter-wrapper reveal"
+            onclick="openLetter(this)">
+
+
+            <!-- ENVELOPE -->
+
+            <div class="envelope">
+
+
+                <div class="envelope-back"></div>
+
+
+                <!-- LETTER CARD -->
+
+                <div class="letter-card">
+
+
+                    <!--
+                        BACKGROUND IMAGE PLACEHOLDER
+
+                        Change this image to her photo.
+                    -->
+
+                    <div
+                        class="letter-background"
+                        style="
+                        background-image:
+                        url('c:\Users\DELL\Downloads\WhatsApp Image 2026-08-16 at 2.45.51 AM.jpeg');
+                        ">
+                    </div>
+
+
+                    <div class="letter-overlay"></div>
+
+
+                    <div class="letter-content">
+
+                        <p class="letter-small">
+                            My dear...
+                        </p>
+
+                        <h3>
+                            To the girl who means
+                            so much to me
+                        </h3>
+
+                        <p>
+                            Today is your birthday,
+                            but honestly, I feel like
+                            I'm the lucky one because
+                            I get to have someone as
+                            beautiful as you in my life.
+                        </p>
+
+                        <p>
+                            I wish I could be there beside
+                            you today, celebrating your
+                            smile and making memories
+                            together.
+                        </p>
+
+                        <p>
+                            Until distance becomes just
+                            a memory, I hope this little
+                            surprise reminds you that
+                            you are always special to me.
+                        </p>
+
+                        <p>
+                            May Allah fill your life with
+                            happiness, peace, love and
+                            everything your heart wishes for.
+                        </p>
+
+                        <div class="letter-signature">
+                            Always yours ♡
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <!--
+                    THIS FLAP DISAPPEARS
+                    WHEN LETTER OPENS
+                -->
+
+                <div class="envelope-flap"></div>
+
+
+            </div>
+
+
+            <p class="letter-hint">
+                Tap the envelope to open your letter ♡
+            </p>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- ==================================================
+     DISTANCE
+================================================== -->
+
+<section class="distance-section">
+
+    <div class="moon"></div>
+
+    <div class="stars"></div>
+
+    <div class="container">
+
+        <div class="distance-content reveal">
+
+            <p class="eyebrow">
+                Even from far away
+            </p>
+
+            <h2>
+                Different cities.
+                <br>
+                <span>Same sky.</span>
+            </h2>
+
+            <div class="distance-line"></div>
+
+            <p>
+                Wherever we are tonight,
+                we're still under the same sky,
+                looking at the same moon.
+            </p>
+
+            <div class="distance-heart">
+                ♡
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- ==================================================
+     CAKE
+================================================== -->
+
+<section class="cake-section">
+
+    <div class="container">
+
+        <div class="section-heading reveal">
+
+            <p class="eyebrow">
+                One more little surprise
+            </p>
+
+            <h2>
+                Make a <span>Wish</span> 🎂
+            </h2>
+
+            <div class="divider">
+                <span></span>
+                ♡
+                <span></span>
+            </div>
+
+        </div>
+
+
+        <div class="cake-area reveal">
+
+            <!--
+                You can replace this with your own
+                transparent cake PNG.
+            -->
+
+            <img
+                class="cake-image"
+                src="e:\ChatGPT Image Aug 23, 2026, 02_41_43 AM.png"
+                alt="Birthday Cake">
+
+            <button
+                class="premium-button"
+                onclick="makeWish()">
+
+                Make a Wish ✨
+
+            </button>
+
+            <p
+                class="wish-message"
+                id="wishMessage">
+            </p>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- ==================================================
+     FINAL
+================================================== -->
+
+<section class="final-section">
+
+    <div class="final-glow"></div>
+
+    <div class="container">
+
+        <div class="final-content reveal">
+
+            <div class="final-heart">
+                ♡
+            </div>
+
+            <p class="eyebrow">
+                One last thing...
+            </p>
+
+            <h2>
+                Happy Birthday
+            </h2>
+
+            <h1>
+                My Beautiful Girl
+            </h1>
+
+            <div class="divider">
+                <span></span>
+                ♡
+                <span></span>
+            </div>
+
+            <p class="final-message">
+                Distance can keep us apart for a while,
+                but nothing can make you less special to me.
+                <br><br>
+                I hope this little surprise
+                made you smile.
+                ❤️
+            </p>
+
+            <div class="final-signature">
+                Made with love,
+                <br>
+                just for you ♡ <br> I LOVE YOU😘
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+</main>
+
+
+<script src="script.js"></script>
+
+</body>
+</html>
