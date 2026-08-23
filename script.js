@@ -138,41 +138,39 @@ function togglePassword() {
 /* ==================================================
    GALLERY DATA
 ================================================== */
-
 const galleryImages = [
 
     {
-        src: "e:\WhatsApp Image 2026-08-23 at 2.48.15 AM.jpeg",
+        src: "images/WhatsApp Image 2026-08-23 at 2.48.15 AM.jpeg",
         caption: "Our little moment ♡"
     },
 
     {
-        src: "e:\WhatsApp Image 2026-08-23 at 2.52.52 AM.jpeg",
+        src: "images/WhatsApp Image 2026-08-23 at 2.52.50 AM.jpeg",
         caption: "A beautiful memory ♡"
     },
 
     {
-        src: "e:\WhatsApp Image 2026-08-23 at 2.52.51 AM.jpeg",
+        src: "images/WhatsApp Image 2026-08-23 at 2.52.51 AM.jpeg",
         caption: "Forever special ♡"
     },
 
     {
-        src: "e:\WhatsApp Image 2026-08-23 at 2.52.52 AM (1).jpeg",
+        src: "images/WhatsApp Image 2026-08-23 at 2.52.52 AM (1).jpeg",
         caption: "A moment to remember ♡"
     },
 
     {
-        src: "e:\WhatsApp Image 2026-08-23 at 2.52.50 AM (1).jpeg",
+        src: "images/WhatsApp Image 2026-08-23 at 2.52.52 AM.jpeg",
         caption: "Just you & me ♡"
     },
 
     {
-        src: "e:\WhatsApp Image 2026-08-23 at 3.07.24 AM.jpeg",
+        src: "images/WhatsApp Image 2026-08-23 at 3.07.24 AM.jpeg",
         caption: "A memory I'll keep forever ♡"
     }
 
 ];
-
 
 let currentImage = 0;
 
